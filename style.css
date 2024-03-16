@@ -118,7 +118,7 @@
     justify-content: center;
     position: absolute;
     width: 30%;
-    height: 145%;
+    height: 95%;
     left: 60%;
     top: 5%;
     background: #ffff;
@@ -147,7 +147,7 @@
     align-items: flex-start;
     padding: 1% 0;
     position: absolute;
-    width: 90%;
+    width: 95%;
     left: 42%;
     top: 38%;
 }
@@ -182,7 +182,7 @@
     gap: 16px;
     position: absolute;
     width: 100%;
-    top: 90%;
+    top: 75%;
     text-align: center;
 }
 
@@ -213,8 +213,8 @@
 .encriptado img{
 position: absolute;
 width: 80%;
-height: 40%;
-top: 50%;
+height: 30%;
+top: 45%;
 }
 /*Responsive design*/
 @media (max-width:57.5em){

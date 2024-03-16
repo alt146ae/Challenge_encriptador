@@ -15,11 +15,12 @@ function encriptar(){
                         .replace(/u/gi, "ufat");
 
     if (texto.length!=0){
-        document.getElementById ("texto").value =textocifrado;
+        document.getElementById ("texto").value ="";
+        //document.getElementById ("texto").value =textocifrado;
         document.getElementById ("mensaje").value =textocifrado;
         titulomensaje.textContent = "Texto encriptado con exito";
         parrafo.textContent = "";
-        muneco.src = "./img/encriptado.jpg";
+        muneco.src = "./img/encryption.png";
     }else{
     muneco.src = "./img/muneco.png";
     titulomensaje.textContent = "Ningun mensaje fue encontrado";
@@ -31,11 +32,10 @@ function encriptar(){
 
 function descencriptar(){
     let texto = document.getElementById ("texto").value;
+    let mensaje = document.getElementById ("mensaje").value;
     let titulomensaje= document.getElementById ("titulo-mensaje");
     let parrafo =document.getElementById ("parrafo");
     let muneco = document.getElementById ("mono");
-
-
     let textocifrado = texto
                     .replace(/enter/gi, "e")
                     .replace(/imes/gi, "i")
@@ -43,7 +43,9 @@ function descencriptar(){
                     .replace(/ober/gi, "o")
                     .replace(/ufat/gi, "u");
     if (texto.length!=0){
-        document.getElementById ("texto").value =textocifrado;
+        document.getElementById ("texto").value ="";
+        //document.getElementById ("texto").value =textocifrado;
+        document.getElementById ("mensaje").value =textocifrado;
         titulomensaje.textContent = "Texto desencriptado con exito";
         parrafo.textContent = "";
         muneco.src = "./img/desencriptado.jpg";
@@ -55,4 +57,13 @@ function descencriptar(){
         swal("Ooops", "Debes ingresar un texto", "error");
         }
 }
+
+function copiar(){
+    var textarea = document.getElementById("mensaje");
+    textarea.select();
+    document.execCommand("copy");
+    console.log("Texto copiado al portapapeles: " + textarea.value);
+  }
+
+
 
