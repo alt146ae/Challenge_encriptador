@@ -2,6 +2,7 @@ console.log("Hola mundo");
 
 function encriptar(){
     let texto = document.getElementById ("texto").value;
+    let mensaje = document.getElementById ("mensaje").value;
     let titulomensaje= document.getElementById ("titulo-mensaje");
     let parrafo =document.getElementById ("parrafo");
     let muneco = document.getElementById ("mono");
@@ -15,6 +16,7 @@ function encriptar(){
 
     if (texto.length!=0){
         document.getElementById ("texto").value =textocifrado;
+        document.getElementById ("mensaje").value =textocifrado;
         titulomensaje.textContent = "Texto encriptado con exito";
         parrafo.textContent = "";
         muneco.src = "./img/encriptado.jpg";

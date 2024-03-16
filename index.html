@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge"/>
     <title>Encryptador de texto</title>
+    <!-- <link rel="stylesheet" href="reset.css"> -->
     <link rel="shortcut icon" href="img/icono.jfif" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
@@ -14,13 +16,13 @@
     <div class="container">
             <div class="encriptar">
                 <textarea 
-                name="texto" 
-                class="texto" 
-                id="texto" 
-                cols="30" 
-                rows="10" 
-                placeholder="Ingresa el texto aqui">
-                </textarea>
+                name="texto"
+                class="texto"
+                id="texto"
+                cols="30"
+                rows="10"
+                placeholder="Ingresa el texto aqui"
+                ></textarea>
                 <div class="terminos">
                     <p>Solo letras minusculas y sin acentos</p>        
                 </div>
@@ -39,21 +41,31 @@
                 </div>
             </div>
             <div class="encriptado">
-                <img src="img/muneco.png" alt="imagen" id="mono">
-                    <div class="mensaje-encriptado" id="mensaje-encriptado"> 
-                        <h2 id="titulo-mensaje">Ningun mensaje fue encontrado</h2>
-                        <p id="parrafo">Ingresa el texto que deseas encripar o desencriptar</p>
-                        <textarea 
-                        name="mensaje" 
+                <textarea 
+                        name="mensaje"
+                        class="mensaje"
                         id="mensaje" 
                         cols="30" 
                         rows="10" 
-                        class="mensaje">
-                        </textarea>
+                        class="mensaje"
+                        ></textarea>
+                    <div class="boton-copiar">
+                        <button 
+                                class="btn-copiar" 
+                                type="button" 
+                                onclick="copiar()">
+                                Copiar
+                            </button>
+                    </div>                        
+                <img src="img/muneco.png" alt="imagen" id="mono">
+           
+                    <div class="mensaje-encriptado" id="mensaje-encriptado"> 
+                        <h2 id="titulo-mensaje">Ningun mensaje fue encontrado</h2>
+                        <p id="parrafo">Ingresa el texto que deseas encripar o desencriptar</p>
+                        
                     </div>
             </div>
     </div>
 </body>
-
 <script src="script.js"></script>
 </html>

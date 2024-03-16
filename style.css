@@ -68,7 +68,7 @@
     position: absolute;
     width: 80%;
     left: 12%;
-    top: 82%;
+    top: 85%;
 }
 
 .btn-encriptar{
@@ -90,9 +90,10 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: end;
     justify-content: center;
     padding: 2%;
+    margin-left: 1%;
     gap: 8px;
     width: 25%;
     background: #d8dfe8;
@@ -102,11 +103,11 @@
     font-weight: 400;
     font-size: 25px;
     line-height: 19px;
-     text-align: center;
+    text-align: center;
     color: #0a3871;
 }
 
-.btn-desencriptar:hover, .btn-encriptar:hover{
+.btn-desencriptar:hover, .btn-encriptar:hover, .btn-copiar:hover{
     margin: 0.3%;
     width: 24.5%;
     padding: 1.8%;
@@ -125,6 +126,53 @@
     border-radius: 32px;
 }
 
+.mensaje{
+    position: absolute;
+    width: 90%;
+    height: 30%;
+    left: 5%;
+    top: 7%;
+    border: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    background-color: #f3f5fc;
+}
+
+.boton-copiar{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1% 0;
+    position: absolute;
+    width: 90%;
+    left: 42%;
+    top: 38%;
+}
+
+.btn-copiar{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: center;
+    padding: 2%;
+    margin-left: 1%;
+    gap: 8px;
+    width: 25%;
+    background: #d8dfe8;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 19px;
+    text-align: center;
+    color: #0a3871;
+ }
+ 
 .mensaje-encriptado{
     display: flex;
     flex-direction: column;
@@ -134,7 +182,7 @@
     gap: 16px;
     position: absolute;
     width: 100%;
-    top: 65%;
+    top: 90%;
     text-align: center;
 }
 
@@ -160,11 +208,13 @@
     color: #495057;
 }
 
+
+
 .encriptado img{
 position: absolute;
 width: 80%;
-height: 50%;
-top: 15%;
+height: 40%;
+top: 50%;
 }
 /*Responsive design*/
 @media (max-width:57.5em){
