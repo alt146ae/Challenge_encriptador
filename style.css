@@ -19,8 +19,8 @@
     font-weight: 400;
     font-style: normal;
     position: absolute;
-    width: 42%;
-    height: 60%;
+    width: 52%;
+    height: 50%;
     left: 12%;
     top: 5%;
     border: none;
@@ -47,7 +47,7 @@
     position: absolute;
     width: 80%;
     left: 12%;
-    top: 65%;
+    top: 55%;
 }
 
 .terminos p {
@@ -71,7 +71,7 @@
     position: absolute;
     width: 80%;
     left: 12%;
-    top: 70%;
+    top: 58%;
 }
 
 .btn-encriptar{
@@ -128,9 +128,9 @@
     justify-content: center;
     position: absolute;
     width: 30%;
-    height: 95%;
-    left: 60%;
-    top: 1%;
+    height: 70%;
+    left: 65%;
+    top: 1.5%;
     background: #ffff;
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
     border-radius: 32px;
@@ -163,7 +163,7 @@
     position: absolute;
     width: 95%;
     left: 42%;
-    top: 38%;
+    top: 36%;
 }
 
 .btn-copiar{
@@ -227,7 +227,7 @@
 
 .encriptado img{
 position: absolute;
-width: 60%;
+width: 80%;
 height: 30%;
 top: 45%;
 }

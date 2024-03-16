@@ -20,7 +20,7 @@ function encriptar(){
         document.getElementById ("mensaje").value =textocifrado;
         titulomensaje.textContent = "Texto encriptado con exito";
         parrafo.textContent = "";
-        muneco.src = "./img/encryption.png";
+        muneco.src = "./img/encrip.png";
     }else{
     muneco.src = "./img/inicial.png";
     titulomensaje.textContent = "Ningun mensaje fue encontrado";
@@ -48,7 +48,7 @@ function descencriptar(){
         document.getElementById ("mensaje").value =textocifrado;
         titulomensaje.textContent = "Texto desencriptado con exito";
         parrafo.textContent = "";
-        muneco.src = "./img/desencriptado.jpg";
+        muneco.src = "./img/desc2.png";
        }
     else{
         muneco.src = "./img/inicial.png";
