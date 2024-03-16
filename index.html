@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encryptador de texto</title>
+    <link rel="shortcut icon" href="img/icono.jfif" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+   
+
+</head>
+<body>
+    <div class="container">
+            <div class="encriptar">
+                <textarea 
+                name="texto" 
+                class="texto" 
+                id="texto" 
+                cols="30" 
+                rows="10" 
+                placeholder="Ingresa el texto aqui">
+                </textarea>
+                <div class="terminos">
+                    <p>Solo letras minusculas y sin acentos</p>        
+                </div>
+                <div class="botones">
+                    <button 
+                        class="btn-encriptar" 
+                        type="button" 
+                        onclick="encriptar()">
+                        Encriptar
+                    </button>
+                    <input 
+                        type="button" 
+                        class="btn-desencriptar" 
+                        value="Desencriptar" 
+                        onclick="descencriptar()">
+                </div>
+            </div>
+            <div class="encriptado">
+                <img src="img/muneco.png" alt="imagen" id="mono">
+                    <div class="mensaje-encriptado" id="mensaje-encriptado"> 
+                        <h2 id="titulo-mensaje">Ningun mensaje fue encontrado</h2>
+                        <p id="parrafo">Ingresa el texto que deseas encripar o desencriptar</p>
+                        <textarea 
+                        name="mensaje" 
+                        id="mensaje" 
+                        cols="30" 
+                        rows="10" 
+                        class="mensaje">
+                        </textarea>
+                    </div>
+            </div>
+    </div>
+</body>
+
+<script src="script.js"></script>
+</html>
