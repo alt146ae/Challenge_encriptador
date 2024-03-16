@@ -232,7 +232,7 @@ height: 30%;
 top: 45%;
 }
 /*Responsive design*/
-@media (max-width:57.5em){
+@media screen and (max-width:480px){
 .contatiner {
     display: flex;
     flex-direction: row;
@@ -260,11 +260,11 @@ font-size: 16px;
 .botones{
 width: 80%;
 left: 10%;
-top: 70%;
+top: 80%;
 }
 
 .btn-encriptar, .btn-desencriptar{
-    width: 48%;
+    width: 60%;
     border-radius: 16px;
 }
 
@@ -275,21 +275,76 @@ top: 70%;
     }
 
 .encriptado{
-    width: 80%;
-    height: 15%;
+    width: 85%;
+    height: 80%;
     left: 10%;
-    top: 80%;
+    top: 100%;
 }
+.mensaje{
+    font-family: "Ojuju", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    width: 90%;
+    height: 70%;
+    left: 5%;
+    top: 5%;
+    border: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    background-color: #f3f5fc;
+}
+
+
+.boton-copiar{
+    
+    width: 130%;
+    left: 35%;
+    top: 80%;
+    }
+
+.btn-copiar{
+        font-family: "Ojuju", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        align-items: end;
+        justify-content: center;
+        padding: 2%;
+        margin-left: 1%;
+        gap: 8px;
+        width: 25%;
+        background: #d8dfe8;
+        border: 1px solid #0a3871;
+        border-radius: 24px;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 19px;
+        text-align: center;
+        color: #0a3871;
+     }
 
 .mensaje-encriptado{
     width: 100%;
-    top: 5%;
+    top: 108%;
     }
 
 .encriptado img{
-    top: 0;
+    top: 10;
     display: none;
     visibility: hidden;
+
+}
+
+.mensaje-encriptado h2{
+    width: 100%;
+    top: 100%;
 
 }
 }
