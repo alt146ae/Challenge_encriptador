@@ -1,12 +1,18 @@
 *{
     margin: 0;
     padding: 0;
-}
-
-.container{
     font-family: "Ojuju", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
+}
+
+.logo{
+    padding-top: 10px;
+    margin-left: 70px;
+    width: 1%;
+}
+
+.container{
     font-style: normal;
     position: relative;
     width: 95vw;
@@ -27,6 +33,7 @@
     font-size: 32px;
     line-height: 150%;
     background-color: #f3f5fc;
+    text-transform: lowercase;
 }
 
 .texto::placeholder{
@@ -50,7 +57,7 @@
     top: 55%;
 }
 
-.terminos p {
+.terminos h6 {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -152,6 +159,7 @@
     font-size: 32px;
     line-height: 150%;
     background-color: #f3f5fc;
+    text-transform: lowercase;
 }
 
 .boton-copiar{
@@ -231,7 +239,28 @@ width: 80%;
 height: 30%;
 top: 45%;
 }
+
+
+footer{
+    text-align: center;
+    padding: 10px;
+}
+
+.copyright{
+    color: #495057;
+    font-size: 18px;
+    margin:20px;
+}
+
+
 /*Responsive design*/
+
+.logo{
+    padding-top: 10px;
+    margin-left: 70px;
+    width: 5%;
+}
+
 @media screen and (max-width:480px){
 .contatiner {
     display: flex;
@@ -276,7 +305,7 @@ top: 80%;
 
 .encriptado{
     width: 85%;
-    height: 80%;
+    height: 110%;
     left: 10%;
     top: 100%;
 }
