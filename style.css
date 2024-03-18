@@ -93,6 +93,7 @@
     line-height: 19px;
     text-align: center;
     color: #ffff;
+    cursor: pointer;
 }
 
 .btn-desencriptar{
@@ -113,6 +114,7 @@
     line-height: 19px;
     text-align: center;
     color: #0a3871;
+    cursor: pointer;
 }
 
 .btn-desencriptar:hover, .btn-encriptar:hover, .btn-copiar:hover{
@@ -167,10 +169,6 @@
 }
 
 .btn-copiar{
-    font-family: "Ojuju", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
@@ -188,6 +186,7 @@
     line-height: 19px;
     text-align: center;
     color: #0a3871;
+    cursor: pointer;
  }
  
 .mensaje-encriptado{
