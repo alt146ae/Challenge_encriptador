@@ -376,4 +376,18 @@ top: 80%;
     top: 100%;
 
 }
+
+footer{
+    padding-top: 380px;
+    margin-left: 10px;
+}
+
+.copyright{
+    color: #495057;
+    font-size: 10px;
+    
+}
+
+
+
 }
