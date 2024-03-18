@@ -82,10 +82,6 @@
 }
 
 .btn-encriptar{
-    font-family: "Ojuju", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
     align-items: center;
     justify-content: center;
     padding: 2%;
@@ -100,10 +96,6 @@
 }
 
 .btn-desencriptar{
-    font-family: "Ojuju", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
@@ -252,14 +244,14 @@ footer{
     margin:20px;
 }
 
-
-/*Responsive design*/
-
 .logo{
     padding-top: 10px;
     margin-left: 70px;
     width: 5%;
 }
+/*Responsive design*/
+
+
 
 @media screen and (max-width:480px){
 .contatiner {
@@ -287,27 +279,24 @@ font-size: 16px;
 }
 
 .botones{
-width: 80%;
+width: 155%;
 left: 10%;
 top: 80%;
+
 }
 
 .btn-encriptar, .btn-desencriptar{
-    width: 60%;
     border-radius: 16px;
+    font-size: 14px;
 }
 
-.btn-desencriptar:hover, .btn-desencriptar:hover {
-    margin: 0.3%;
-    width: 47.5%;
-    padding: 1.8%;
-    }
+
 
 .encriptado{
     width: 85%;
     height: 110%;
     left: 10%;
-    top: 100%;
+    top: 110%;
 }
 .mensaje{
     font-family: "Ojuju", sans-serif;
@@ -336,10 +325,6 @@ top: 80%;
     }
 
 .btn-copiar{
-        font-family: "Ojuju", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 400;
-        font-style: normal;
         box-sizing: border-box;
         display: flex;
         flex-direction: row;
