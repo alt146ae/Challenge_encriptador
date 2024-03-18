@@ -272,7 +272,6 @@ footer{
     height: 60%;
     left: 10%;
     top: 5%;
-
 }
 
 .terminos{
@@ -283,23 +282,18 @@ footer{
 
 .terminos p {
 font-size: 16px;
-
-
 }
 
 .botones{
 width: 155%;
 left: 10%;
 top: 80%;
-
 }
 
 .btn-encriptar, .btn-desencriptar{
     border-radius: 16px;
     font-size: 14px;
 }
-
-
 
 .encriptado{
     width: 85%;
@@ -308,6 +302,7 @@ top: 80%;
     top: 110%;
    /* box-shadow: 0px 24px 32px -8px rgba(0, 0,0,0.8);*/
 }
+
 .mensaje{
     position: absolute;
     width: 90%;
@@ -321,8 +316,7 @@ top: 80%;
     font-size: 32px;
     line-height: 150%;
     background-color: #f3f5fc;
-    box-shadow: 0px 24px 32px -8px rgba(0, 0,0,0.8);
-
+    box-shadow: 0px 4px 32px -8px rgba(0, 0,0,0.8);
 }
 
 .boton-copiar{
@@ -331,7 +325,7 @@ top: 80%;
     top: 80%;
     }
 
-.btn-copiar{
+/*.btn-copiar{
         box-sizing: border-box;
         display: flex;
         flex-direction: row;
@@ -349,7 +343,7 @@ top: 80%;
         line-height: 19px;
         text-align: center;
         color: #0a3871;
-     }
+     }*/
 
 .mensaje-encriptado{
     width: 100%;
@@ -361,13 +355,11 @@ top: 80%;
     top: 10;
     display: none;
     visibility: hidden;
-
 }
 
 .mensaje-encriptado h2{
     width: 100%;
     top: 100%;
-
 }
 
 footer{
@@ -378,6 +370,5 @@ footer{
 .copyright{
     color: #495057;
     font-size: 10px;
-    
 }
 }
