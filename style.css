@@ -79,7 +79,7 @@
     position: absolute;
     width: 80%;
     left: 12%;
-    top: 58%;
+    top: 60%;
 }
 
 .btn-encriptar{
@@ -130,12 +130,12 @@
     justify-content: center;
     position: absolute;
     width: 30%;
-    height: 70%;
+    height: 80%;
     left: 65%;
     top: 1.5%;
     background: #f3f5fc;
-    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
-    border-radius: 32px;
+    /*box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);*/
+    /*border-radius: 32px;*/
 }
 
 .mensaje{
@@ -145,7 +145,7 @@
     font-style: normal;
     position: absolute;
     width: 90%;
-    height: 30%;
+    height: 20%;
     left: 5%;
     top: 5%;
     border: none;
@@ -166,7 +166,7 @@
     position: absolute;
     width: 38%;
     left: 32%;
-    top: 36%;
+    top: 26%;
 }
 
 .btn-copiar{
@@ -179,7 +179,7 @@
     margin-left: 1%;
     gap: 8px;
     width: 100%;
-    background: #d8dfe8;
+    background: #f3f5fc;
     border: 1px solid #0a3871;
     border-radius: 24px;
     font-weight: 400;
@@ -204,9 +204,9 @@
     gap: 16px;
     position: absolute;
     width: 88%;
-    top: 75%;
+    top: 64%;
     text-align: center;
-    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    
 }
 
 .mensaje-encriptado h2{
@@ -235,7 +235,7 @@
 position: absolute;
 width: 70%;
 height: 30%;
-top: 45%;
+top: 33%;
 }
 
 
@@ -283,6 +283,8 @@ footer{
 
 .terminos p {
 font-size: 16px;
+
+
 }
 
 .botones{
@@ -304,7 +306,7 @@ top: 80%;
     height: 110%;
     left: 10%;
     top: 110%;
-    box-shadow: 0px 24px 32px -8px rgba(0, 0,0,0.8);
+   /* box-shadow: 0px 24px 32px -8px rgba(0, 0,0,0.8);*/
 }
 .mensaje{
     position: absolute;
@@ -323,10 +325,8 @@ top: 80%;
 
 }
 
-
 .boton-copiar{
-    
-    width: 130%;
+    width: 40%;
     left: 35%;
     top: 80%;
     }
@@ -340,8 +340,8 @@ top: 80%;
         padding: 2%;
         margin-left: 1%;
         gap: 8px;
-        width: 25%;
-        background: #d8dfe8;
+        width: 95%;
+        *background: #f3f5fc;
         border: 1px solid #0a3871;
         border-radius: 24px;
         font-weight: 400;
