@@ -235,7 +235,7 @@
 position: absolute;
 width: 70%;
 height: 30%;
-top: 33%;
+top: 40%;
 }
 
 
@@ -249,6 +249,9 @@ footer{
     font-size: 18px;
     margin:20px;
 }
+
+
+
 
 
 /*Responsive design*/
@@ -374,3 +377,4 @@ footer{
     font-size: 10px;
 }
 }
+
